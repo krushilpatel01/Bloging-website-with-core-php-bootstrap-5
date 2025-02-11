@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* margin: 0 auto; */
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* sidebar css */
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    background: black;
+    padding: 20px 30px;
+    color: white;
+}
+
+.sidebar .main-title {
+    width: 100%;
+    height: 35%;
+}
+
+.sidebar-menu {
+    width: 100%;
+}
+
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.sidebar ul li {
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid white;
+    margin: 3px auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.admin-footer {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+}
+
+/* mainbar css */
+.mainbar {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding-left: 20%;
+}
+
+.blog-section {
+    margin: 20px 20px;
+}
+
+.blog-input-box {
+    border: 1px solid black;
+}
+
+.blog-input-box form {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-indent: 10px;
+}
+
+form textarea {
+    width: 100%;
+    text-indent: 10px;
+}
+
+.all-blog-list {
+    border: 1px solid black;
+}
+
+.all-blog-list table {
+    width: 100%;
+}
+
+.admin_login {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.admin_login .admin_form{
+    width: 450px;
+    margin: 0 auto;
+    padding: 250px 0px;
+}
+
+.white-bg{
+    width: 100%;
+    height: 100%;
+}
+
+.white-bg img{
+    width: 100vw;
+    height: 100vh;
+}

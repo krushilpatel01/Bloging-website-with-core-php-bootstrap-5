@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-title{
+    margin: 50px auto;
+}
+
+.blooging-section{
+    width: 100%;
+}
+
+.blooging-section .blog-information{
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px;
+}
+
+.blog-information .blog-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.blog-information .blog-info{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.blog-information .tags{
+    margin-bottom: 10px;
+}
+
+.blog-information button{
+    background-color: black;
+    padding: 6px 18px;
+    border-radius: 10px;
+}
+
+.blog-information button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* sign in form */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-box{
+    border: 1px solid black;
+    margin: 20vh auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .form-box a{
+    text-decoration: none;
+  }
+
+  .form-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .form-box select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  /* sign in form css over  */
